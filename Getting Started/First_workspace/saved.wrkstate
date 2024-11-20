@@ -1,5 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic view="schematic" x1="-1" geom="1,0,2,839,63,958,981,1920,1080" y1="-9" lib="First_workspace_lib" width="1920" cell="first schematic" height="991"/>
+        <DDS name="second schematic.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

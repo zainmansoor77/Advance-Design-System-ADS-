@@ -1,0 +1,18 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Wed Nov 20 17:30:38 2024
+      Running on host: "DESKTOP-FP4OP26"
+      In Directory: "D:\Zain\Advance-Design-System-ADS-\Task 1 ADS\Task 1\data"
+      Process ID: 34108
+
+
+
+TRAN Tran1[1] <Task 1_lib:cell_1:schematic>   time=(0 s->100 us)
+
+
+Resource usage:
+  Total stopwatch time     =     0.85 seconds.
+
