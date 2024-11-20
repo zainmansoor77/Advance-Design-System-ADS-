@@ -1,0 +1,49 @@
+; Top Design: "First_workspace_lib:second schematic:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="First_workspace_lib:second schematic:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: First_workspace_lib
+; Cell Name: first schematic
+; View Name: schematic
+define "first#20schematic" ( P1  P2 ) 
+;parameters 
+L:L1  P1 N__7 L=100 nH tune{ 10 nH to 1500 nH by 1 nH } opt{ 10 nH to 150 nH } Noise=yes  
+L:L2  N__7 N__9 L=100 nH tune{ 10 nH to 1500 nH by 1 nH } opt{ 10 nH to 150 nH } Noise=yes  
+L:L3  N__9 P2 L=100 nH tune{ 10 nH to 1500 nH by 1 nH } opt{ 10 nH to 150 nH } Noise=yes  
+C:C1  N__7 0 C=10 pF tune{ 5 pF to 150 pF by 1 pF } opt{ 1 pF to 15 pF } 
+C:C2  N__9 0 C=10 pF tune{ 5 pF to 1500 pF by 1 pF } opt{ 1 pF to 15 pF } 
+end "first#20schematic"
+
+"first#20schematic":X1  N__1 N__0 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no CalcGroupDelay=yes GroupDelayAperture=1e-4 \
+FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.01 GHz Stop=0.5 GHz Step=4.9 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:TermG1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=5000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1.0 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" SpecLimitLine[2]="OptimGoal1_limit2" 
+SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=-1 Weight=1.0 \
+IndepVar[1]="freq" IndepMin[1]=0.01 GHz IndepMax[1]=0.2 GHz 
+SpecLimitLine:"OptimGoal1_limit2" Type="LessThan" Max=-25 Weight=1.0 \
+IndepVar[1]="freq" IndepMin[1]=0.35 GHz IndepMax[1]=0.5 GHz 
+OptimGoal:OptimGoal2 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1.0 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-15 Weight=1.0 \
+IndepVar[1]="freq" IndepMin[1]=0.01 GHz IndepMax[1]=0.2 GHz 

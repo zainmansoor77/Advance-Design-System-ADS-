@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      User
+HostName                       DESKTOP-FP4OP26
+ProcessIdentifier              19148
+ProcessCreationTime_UTC        1732044111
+ProcessCreationTime_Readable   Tue Nov 19 20:21:51 2024 W. Europe Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\Zain\Advance-Design-System-ADS-\Getting Started\First_workspace\First_workspace_lib\second#20schematic\schematic\sch.oa.cdslck
+TimeEditLocked                 Tue Nov 19 20:30:15 2024 W. Europe Standard Time

@@ -1,0 +1,558 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Tue Nov 19 20:59:04 2024
+      Running on host: "DESKTOP-FP4OP26"
+      In Directory: "D:\Zain\Advance-Design-System-ADS-\Getting Started\First_workspace\data"
+      Process ID: 8568
+
+
+OPTIM Optim1[1] <First_workspace_lib:second schematic:schematic>  optIter=(0->5000)
+Optim1: Seed = 368690942
+
+SP Optim1[1].SP1[0] <First_workspace_lib:second schematic:schematic>  optIter=0  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #0:
+  CurrentEF: 1.52384631613637
+  Optimization variables:
+    first#20schematic.C1.C = 9.999999999999999e-12
+    first#20schematic.C2.C = 9.999999999999999e-12
+    first#20schematic.L1.L = 100e-09
+    first#20schematic.L2.L = 100e-09
+    first#20schematic.L3.L = 100e-09
+
+SP Optim1[1].SP1[1] <First_workspace_lib:second schematic:schematic>  optIter=1  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1:
+  CurrentEF: 1.19416913094024
+  Optimization variables:
+    first#20schematic.C1.C = 8.926577818220361e-12
+    first#20schematic.C2.C = 13.0650342254351e-12
+    first#20schematic.L1.L = 26.26245792130631e-09
+    first#20schematic.L2.L = 140.7885644178098e-09
+    first#20schematic.L3.L = 87.30432238266705e-09
+
+SP Optim1[1].SP1[4] <First_workspace_lib:second schematic:schematic>  optIter=4  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #4:
+  CurrentEF: 1.17549982328685
+  Optimization variables:
+    first#20schematic.C1.C = 13.11501115469009e-12
+    first#20schematic.C2.C = 8.917284550987645e-12
+    first#20schematic.L1.L = 42.62700163818235e-09
+    first#20schematic.L2.L = 58.81713925134e-09
+    first#20schematic.L3.L = 105.855996806992e-09
+
+SP Optim1[1].SP1[5] <First_workspace_lib:second schematic:schematic>  optIter=5  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.940741510203925
+  Optimization variables:
+    first#20schematic.C1.C = 14.50647453795029e-12
+    first#20schematic.C2.C = 11.10564156994133e-12
+    first#20schematic.L1.L = 51.21409427716999e-09
+    first#20schematic.L2.L = 86.6677590796535e-09
+    first#20schematic.L3.L = 98.98646963606879e-09
+
+SP Optim1[1].SP1[12] <First_workspace_lib:second schematic:schematic>  optIter=12  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #12:
+  CurrentEF: 0.930454844968684
+  Optimization variables:
+    first#20schematic.C1.C = 13.50638296721875e-12
+    first#20schematic.C2.C = 12.55525828735586e-12
+    first#20schematic.L1.L = 45.44171446129785e-09
+    first#20schematic.L2.L = 100.9432722704309e-09
+    first#20schematic.L3.L = 102.2120469374915e-09
+
+SP Optim1[1].SP1[15] <First_workspace_lib:second schematic:schematic>  optIter=15  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #15:
+  CurrentEF: 0.918342098587962
+  Optimization variables:
+    first#20schematic.C1.C = 13.3540028631538e-12
+    first#20schematic.C2.C = 14.02318158030147e-12
+    first#20schematic.L1.L = 37.37545487297045e-09
+    first#20schematic.L2.L = 87.1856195698878e-09
+    first#20schematic.L3.L = 106.4393664632575e-09
+
+SP Optim1[1].SP1[17] <First_workspace_lib:second schematic:schematic>  optIter=17  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #17:
+  CurrentEF: 0.911100072379971
+  Optimization variables:
+    first#20schematic.C1.C = 13.55794434247572e-12
+    first#20schematic.C2.C = 12.69743171494248e-12
+    first#20schematic.L1.L = 42.06266696069411e-09
+    first#20schematic.L2.L = 90.3007089926742e-09
+    first#20schematic.L3.L = 96.8485343314827e-09
+
+SP Optim1[1].SP1[22] <First_workspace_lib:second schematic:schematic>  optIter=22  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #22:
+  CurrentEF: 0.903285400868858
+  Optimization variables:
+    first#20schematic.C1.C = 14.33709825037813e-12
+    first#20schematic.C2.C = 12.87244646611989e-12
+    first#20schematic.L1.L = 32.22272185385846e-09
+    first#20schematic.L2.L = 82.79274316130083e-09
+    first#20schematic.L3.L = 97.67822917438287e-09
+
+SP Optim1[1].SP1[55] <First_workspace_lib:second schematic:schematic>  optIter=55  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #55:
+  CurrentEF: 0.89977349952612
+  Optimization variables:
+    first#20schematic.C1.C = 14.79517955747611e-12
+    first#20schematic.C2.C = 12.48268123317591e-12
+    first#20schematic.L1.L = 38.68677922019199e-09
+    first#20schematic.L2.L = 84.38570256635135e-09
+    first#20schematic.L3.L = 96.48205751610466e-09
+
+SP Optim1[1].SP1[60] <First_workspace_lib:second schematic:schematic>  optIter=60  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #60:
+  CurrentEF: 0.899714303373471
+  Optimization variables:
+    first#20schematic.C1.C = 14.77842483557365e-12
+    first#20schematic.C2.C = 12.2436274894081e-12
+    first#20schematic.L1.L = 34.15867090274427e-09
+    first#20schematic.L2.L = 79.52256653411893e-09
+    first#20schematic.L3.L = 94.02298711436714e-09
+
+SP Optim1[1].SP1[75] <First_workspace_lib:second schematic:schematic>  optIter=75  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #75:
+  CurrentEF: 0.899668348415086
+  Optimization variables:
+    first#20schematic.C1.C = 14.5838274207422e-12
+    first#20schematic.C2.C = 12.5094841274186e-12
+    first#20schematic.L1.L = 33.52913863504124e-09
+    first#20schematic.L2.L = 78.85540772350575e-09
+    first#20schematic.L3.L = 96.05091208711102e-09
+
+SP Optim1[1].SP1[79] <First_workspace_lib:second schematic:schematic>  optIter=79  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #79:
+  CurrentEF: 0.899543242101032
+  Optimization variables:
+    first#20schematic.C1.C = 14.79213287501772e-12
+    first#20schematic.C2.C = 12.39944024262006e-12
+    first#20schematic.L1.L = 32.76607239181944e-09
+    first#20schematic.L2.L = 78.49620489691979e-09
+    first#20schematic.L3.L = 94.83513094533865e-09
+
+SP Optim1[1].SP1[81] <First_workspace_lib:second schematic:schematic>  optIter=81  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #81:
+  CurrentEF: 0.899221696882546
+  Optimization variables:
+    first#20schematic.C1.C = 14.73797723166442e-12
+    first#20schematic.C2.C = 12.32544847784042e-12
+    first#20schematic.L1.L = 33.76627744897996e-09
+    first#20schematic.L2.L = 79.33707386576294e-09
+    first#20schematic.L3.L = 96.66475095226541e-09
+
+SP Optim1[1].SP1[82] <First_workspace_lib:second schematic:schematic>  optIter=82  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #82:
+  CurrentEF: 0.898743875097379
+  Optimization variables:
+    first#20schematic.C1.C = 14.85751776486388e-12
+    first#20schematic.C2.C = 12.26177687192618e-12
+    first#20schematic.L1.L = 35.85956509049283e-09
+    first#20schematic.L2.L = 80.07632439690592e-09
+    first#20schematic.L3.L = 95.17051083816894e-09
+
+SP Optim1[1].SP1[83] <First_workspace_lib:second schematic:schematic>  optIter=83  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #83:
+  CurrentEF: 0.898459789796823
+  Optimization variables:
+    first#20schematic.C1.C = 14.97740100718058e-12
+    first#20schematic.C2.C = 12.60725375477947e-12
+    first#20schematic.L1.L = 33.70998333798663e-09
+    first#20schematic.L2.L = 78.9848102978785e-09
+    first#20schematic.L3.L = 95.03358135216078e-09
+
+SP Optim1[1].SP1[93] <First_workspace_lib:second schematic:schematic>  optIter=93  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #93:
+  CurrentEF: 0.897838589011755
+  Optimization variables:
+    first#20schematic.C1.C = 14.94068932403137e-12
+    first#20schematic.C2.C = 12.59875697780495e-12
+    first#20schematic.L1.L = 34.7066709810753e-09
+    first#20schematic.L2.L = 80.10103784309918e-09
+    first#20schematic.L3.L = 96.68137230283912e-09
+
+SP Optim1[1].SP1[107] <First_workspace_lib:second schematic:schematic>  optIter=107  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #107:
+  CurrentEF: 0.897808431914989
+  Optimization variables:
+    first#20schematic.C1.C = 14.95953328311257e-12
+    first#20schematic.C2.C = 12.67285530887339e-12
+    first#20schematic.L1.L = 34.31982344386027e-09
+    first#20schematic.L2.L = 79.83199868582283e-09
+    first#20schematic.L3.L = 96.5984025864276e-09
+
+SP Optim1[1].SP1[110] <First_workspace_lib:second schematic:schematic>  optIter=110  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #110:
+  CurrentEF: 0.897770109206683
+  Optimization variables:
+    first#20schematic.C1.C = 14.93856901155083e-12
+    first#20schematic.C2.C = 12.76082572572938e-12
+    first#20schematic.L1.L = 34.44722078413768e-09
+    first#20schematic.L2.L = 80.8902168884371e-09
+    first#20schematic.L3.L = 97.10612834782565e-09
+
+SP Optim1[1].SP1[111] <First_workspace_lib:second schematic:schematic>  optIter=111  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #111:
+  CurrentEF: 0.897425175400868
+  Optimization variables:
+    first#20schematic.C1.C = 14.9975753720071e-12
+    first#20schematic.C2.C = 12.63154389537217e-12
+    first#20schematic.L1.L = 33.99355468776454e-09
+    first#20schematic.L2.L = 80.81725010109122e-09
+    first#20schematic.L3.L = 97.17581417243699e-09
+
+SP Optim1[1].SP1[125] <First_workspace_lib:second schematic:schematic>  optIter=125  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #125:
+  CurrentEF: 0.897413376303265
+  Optimization variables:
+    first#20schematic.C1.C = 14.95914641161376e-12
+    first#20schematic.C2.C = 12.72552424403611e-12
+    first#20schematic.L1.L = 34.12700355526507e-09
+    first#20schematic.L2.L = 80.37681333675406e-09
+    first#20schematic.L3.L = 97.8358076302697e-09
+
+SP Optim1[1].SP1[128] <First_workspace_lib:second schematic:schematic>  optIter=128  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #128:
+  CurrentEF: 0.8973731043726
+  Optimization variables:
+    first#20schematic.C1.C = 14.98754833976889e-12
+    first#20schematic.C2.C = 12.73666368121389e-12
+    first#20schematic.L1.L = 34.63843102166038e-09
+    first#20schematic.L2.L = 80.69722218104028e-09
+    first#20schematic.L3.L = 97.95307772915011e-09
+
+SP Optim1[1].SP1[129] <First_workspace_lib:second schematic:schematic>  optIter=129  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #129:
+  CurrentEF: 0.897309767387366
+  Optimization variables:
+    first#20schematic.C1.C = 14.99720960831509e-12
+    first#20schematic.C2.C = 12.72776409468499e-12
+    first#20schematic.L1.L = 33.75550606178112e-09
+    first#20schematic.L2.L = 80.17569137888683e-09
+    first#20schematic.L3.L = 97.50479509298555e-09
+
+SP Optim1[1].SP1[220] <First_workspace_lib:second schematic:schematic>  optIter=220  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #220:
+  CurrentEF: 0.897307518523637
+  Optimization variables:
+    first#20schematic.C1.C = 14.98569094311318e-12
+    first#20schematic.C2.C = 12.7099267209542e-12
+    first#20schematic.L1.L = 33.71520573800101e-09
+    first#20schematic.L2.L = 80.69679823197802e-09
+    first#20schematic.L3.L = 98.23731965404857e-09
+
+SP Optim1[1].SP1[254] <First_workspace_lib:second schematic:schematic>  optIter=254  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #254:
+  CurrentEF: 0.897237018609366
+  Optimization variables:
+    first#20schematic.C1.C = 14.99123032467484e-12
+    first#20schematic.C2.C = 12.74119840402298e-12
+    first#20schematic.L1.L = 33.85910539649822e-09
+    first#20schematic.L2.L = 80.73936099920071e-09
+    first#20schematic.L3.L = 98.0404556892046e-09
+
+SP Optim1[1].SP1[266] <First_workspace_lib:second schematic:schematic>  optIter=266  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #266:
+  CurrentEF: 0.897197393333538
+  Optimization variables:
+    first#20schematic.C1.C = 14.99827359201151e-12
+    first#20schematic.C2.C = 12.79103048427067e-12
+    first#20schematic.L1.L = 34.07854946310568e-09
+    first#20schematic.L2.L = 80.65744458133404e-09
+    first#20schematic.L3.L = 98.09530210907099e-09
+
+SP Optim1[1].SP1[289] <First_workspace_lib:second schematic:schematic>  optIter=289  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #289:
+  CurrentEF: 0.897192481751558
+  Optimization variables:
+    first#20schematic.C1.C = 14.98329145391525e-12
+    first#20schematic.C2.C = 12.79687129996144e-12
+    first#20schematic.L1.L = 33.83532152584454e-09
+    first#20schematic.L2.L = 80.81110829170691e-09
+    first#20schematic.L3.L = 98.4719040489237e-09
+
+SP Optim1[1].SP1[291] <First_workspace_lib:second schematic:schematic>  optIter=291  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #291:
+  CurrentEF: 0.897168737883315
+  Optimization variables:
+    first#20schematic.C1.C = 14.99723241632565e-12
+    first#20schematic.C2.C = 12.7882121302712e-12
+    first#20schematic.L1.L = 33.80591975452995e-09
+    first#20schematic.L2.L = 81.1153884348038e-09
+    first#20schematic.L3.L = 98.50109487065709e-09
+
+SP Optim1[1].SP1[299] <First_workspace_lib:second schematic:schematic>  optIter=299  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #299:
+  CurrentEF: 0.897157837202383
+  Optimization variables:
+    first#20schematic.C1.C = 14.99688572484702e-12
+    first#20schematic.C2.C = 12.80837247443603e-12
+    first#20schematic.L1.L = 33.79945423629976e-09
+    first#20schematic.L2.L = 81.19874062759467e-09
+    first#20schematic.L3.L = 98.57337244222336e-09
+
+SP Optim1[1].SP1[351] <First_workspace_lib:second schematic:schematic>  optIter=351  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #351:
+  CurrentEF: 0.897073305855475
+  Optimization variables:
+    first#20schematic.C1.C = 14.98983414761345e-12
+    first#20schematic.C2.C = 12.93722181265029e-12
+    first#20schematic.L1.L = 33.42591184422555e-09
+    first#20schematic.L2.L = 81.04248531660975e-09
+    first#20schematic.L3.L = 98.99226318303026e-09
+
+SP Optim1[1].SP1[355] <First_workspace_lib:second schematic:schematic>  optIter=355  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #355:
+  CurrentEF: 0.896942775861292
+  Optimization variables:
+    first#20schematic.C1.C = 14.99109665442932e-12
+    first#20schematic.C2.C = 13.12284689318254e-12
+    first#20schematic.L1.L = 32.85955126312703e-09
+    first#20schematic.L2.L = 80.46341657531509e-09
+    first#20schematic.L3.L = 99.56731684626919e-09
+
+SP Optim1[1].SP1[390] <First_workspace_lib:second schematic:schematic>  optIter=390  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #390:
+  CurrentEF: 0.896940932534579
+  Optimization variables:
+    first#20schematic.C1.C = 14.99619910653583e-12
+    first#20schematic.C2.C = 13.17774411846454e-12
+    first#20schematic.L1.L = 31.9147765481793e-09
+    first#20schematic.L2.L = 80.02029438122134e-09
+    first#20schematic.L3.L = 99.60950459933528e-09
+
+SP Optim1[1].SP1[393] <First_workspace_lib:second schematic:schematic>  optIter=393  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #393:
+  CurrentEF: 0.896934308007196
+  Optimization variables:
+    first#20schematic.C1.C = 14.99937070918813e-12
+    first#20schematic.C2.C = 13.17756543424676e-12
+    first#20schematic.L1.L = 31.86383655730096e-09
+    first#20schematic.L2.L = 79.95908245342461e-09
+    first#20schematic.L3.L = 99.94784953026572e-09
+
+SP Optim1[1].SP1[404] <First_workspace_lib:second schematic:schematic>  optIter=404  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #404:
+  CurrentEF: 0.896922899705332
+  Optimization variables:
+    first#20schematic.C1.C = 14.99074450479133e-12
+    first#20schematic.C2.C = 13.21479193351171e-12
+    first#20schematic.L1.L = 31.84731604066411e-09
+    first#20schematic.L2.L = 79.82340418594635e-09
+    first#20schematic.L3.L = 99.89118923212153e-09
+
+SP Optim1[1].SP1[405] <First_workspace_lib:second schematic:schematic>  optIter=405  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #405:
+  CurrentEF: 0.896909918444615
+  Optimization variables:
+    first#20schematic.C1.C = 14.99755500557412e-12
+    first#20schematic.C2.C = 13.29217132852644e-12
+    first#20schematic.L1.L = 31.74894910566384e-09
+    first#20schematic.L2.L = 79.50872995896278e-09
+    first#20schematic.L3.L = 100.1336771149271e-09
+
+SP Optim1[1].SP1[422] <First_workspace_lib:second schematic:schematic>  optIter=422  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #422:
+  CurrentEF: 0.896906996081088
+  Optimization variables:
+    first#20schematic.C1.C = 14.99975190570887e-12
+    first#20schematic.C2.C = 13.26539142773099e-12
+    first#20schematic.L1.L = 32.09487212219913e-09
+    first#20schematic.L2.L = 79.85027614664307e-09
+    first#20schematic.L3.L = 100.4144677982162e-09
+
+SP Optim1[1].SP1[436] <First_workspace_lib:second schematic:schematic>  optIter=436  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #436:
+  CurrentEF: 0.896872927832378
+  Optimization variables:
+    first#20schematic.C1.C = 14.99039061077414e-12
+    first#20schematic.C2.C = 13.29080942881753e-12
+    first#20schematic.L1.L = 32.0230590669314e-09
+    first#20schematic.L2.L = 79.97571525846605e-09
+    first#20schematic.L3.L = 100.2712328206714e-09
+
+SP Optim1[1].SP1[444] <First_workspace_lib:second schematic:schematic>  optIter=444  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #444:
+  CurrentEF: 0.896845835023798
+  Optimization variables:
+    first#20schematic.C1.C = 14.99879065986964e-12
+    first#20schematic.C2.C = 13.29393838279267e-12
+    first#20schematic.L1.L = 31.92784075413075e-09
+    first#20schematic.L2.L = 79.96061322171566e-09
+    first#20schematic.L3.L = 100.3702569960989e-09
+
+SP Optim1[1].SP1[582] <First_workspace_lib:second schematic:schematic>  optIter=582  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #582:
+  CurrentEF: 0.896840125291688
+  Optimization variables:
+    first#20schematic.C1.C = 14.99777320355325e-12
+    first#20schematic.C2.C = 13.30541299335029e-12
+    first#20schematic.L1.L = 31.89784564185355e-09
+    first#20schematic.L2.L = 79.98538488366149e-09
+    first#20schematic.L3.L = 100.3943806877289e-09
+
+SP Optim1[1].SP1[588] <First_workspace_lib:second schematic:schematic>  optIter=588  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #588:
+  CurrentEF: 0.896838214466039
+  Optimization variables:
+    first#20schematic.C1.C = 14.9946884787261e-12
+    first#20schematic.C2.C = 13.33760244087029e-12
+    first#20schematic.L1.L = 31.92419723451068e-09
+    first#20schematic.L2.L = 80.07455253199427e-09
+    first#20schematic.L3.L = 100.5613043258124e-09
+
+SP Optim1[1].SP1[591] <First_workspace_lib:second schematic:schematic>  optIter=591  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #591:
+  CurrentEF: 0.89683068285366
+  Optimization variables:
+    first#20schematic.C1.C = 14.99442499516347e-12
+    first#20schematic.C2.C = 13.34993871372323e-12
+    first#20schematic.L1.L = 31.89731385033592e-09
+    first#20schematic.L2.L = 80.13515259558242e-09
+    first#20schematic.L3.L = 100.6475888165216e-09
+
+SP Optim1[1].SP1[592] <First_workspace_lib:second schematic:schematic>  optIter=592  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #592:
+  CurrentEF: 0.896813816231372
+  Optimization variables:
+    first#20schematic.C1.C = 14.99305398612634e-12
+    first#20schematic.C2.C = 13.41044579577147e-12
+    first#20schematic.L1.L = 31.81815724418541e-09
+    first#20schematic.L2.L = 80.35369190273803e-09
+    first#20schematic.L3.L = 100.9029881100462e-09
+
+SP Optim1[1].SP1[595] <First_workspace_lib:second schematic:schematic>  optIter=595  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #595:
+  CurrentEF: 0.896812202603131
+  Optimization variables:
+    first#20schematic.C1.C = 14.9948998770026e-12
+    first#20schematic.C2.C = 13.45216150718805e-12
+    first#20schematic.L1.L = 31.79343645742507e-09
+    first#20schematic.L2.L = 80.60892426143379e-09
+    first#20schematic.L3.L = 101.0103979345204e-09
+
+SP Optim1[1].SP1[891] <First_workspace_lib:second schematic:schematic>  optIter=891  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #891:
+  CurrentEF: 0.896807676326634
+  Optimization variables:
+    first#20schematic.C1.C = 14.99845200846982e-12
+    first#20schematic.C2.C = 13.45286134632399e-12
+    first#20schematic.L1.L = 31.46431326725822e-09
+    first#20schematic.L2.L = 80.1174595823514e-09
+    first#20schematic.L3.L = 101.2112937819121e-09
+
+SP Optim1[1].SP1[997] <First_workspace_lib:second schematic:schematic>  optIter=997  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #997:
+  CurrentEF: 0.896802751588391
+  Optimization variables:
+    first#20schematic.C1.C = 14.99849727619493e-12
+    first#20schematic.C2.C = 13.46010654464665e-12
+    first#20schematic.L1.L = 31.31932353495939e-09
+    first#20schematic.L2.L = 80.14487902041592e-09
+    first#20schematic.L3.L = 101.2129460310416e-09
+
+SP Optim1[1].SP1[1019] <First_workspace_lib:second schematic:schematic>  optIter=1019  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1019:
+  CurrentEF: 0.896796404329688
+  Optimization variables:
+    first#20schematic.C1.C = 14.99843637805754e-12
+    first#20schematic.C2.C = 13.4847386728041e-12
+    first#20schematic.L1.L = 31.16285887724211e-09
+    first#20schematic.L2.L = 80.1025683291125e-09
+    first#20schematic.L3.L = 101.0001907565915e-09
+
+SP Optim1[1].SP1[1044] <First_workspace_lib:second schematic:schematic>  optIter=1044  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1044:
+  CurrentEF: 0.896791259181519
+  Optimization variables:
+    first#20schematic.C1.C = 14.99953962718241e-12
+    first#20schematic.C2.C = 13.49587592153357e-12
+    first#20schematic.L1.L = 31.16053163392423e-09
+    first#20schematic.L2.L = 80.11834711678772e-09
+    first#20schematic.L3.L = 100.9913989821692e-09
+
+SP Optim1[1].SP1[1295] <First_workspace_lib:second schematic:schematic>  optIter=1295  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1295:
+  CurrentEF: 0.896790506553448
+  Optimization variables:
+    first#20schematic.C1.C = 14.99676787855462e-12
+    first#20schematic.C2.C = 13.47427356619267e-12
+    first#20schematic.L1.L = 31.47607154344932e-09
+    first#20schematic.L2.L = 80.24399028292627e-09
+    first#20schematic.L3.L = 101.0876605959947e-09
+
+SP Optim1[1].SP1[1343] <First_workspace_lib:second schematic:schematic>  optIter=1343  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #1343:
+  CurrentEF: 0.896783029100438
+  Optimization variables:
+    first#20schematic.C1.C = 14.99960666035449e-12
+    first#20schematic.C2.C = 13.45998965944755e-12
+    first#20schematic.L1.L = 31.47513370375927e-09
+    first#20schematic.L2.L = 80.29414500047176e-09
+    first#20schematic.L3.L = 101.010458913235e-09
+
+SP Optim1[1].SP1[4347] <First_workspace_lib:second schematic:schematic>  optIter=4347  freq=(10 MHz->500 MHz)
+
+Iteration/Trial #4347:
+  CurrentEF: 0.896782639658665
+  Optimization variables:
+    first#20schematic.C1.C = 14.99954690927348e-12
+    first#20schematic.C2.C = 13.47312963360041e-12
+    first#20schematic.L1.L = 31.499029111292e-09
+    first#20schematic.L2.L = 80.24171153556285e-09
+    first#20schematic.L3.L = 101.0413344287206e-09
+Random optimizer ends after 5000 trials and 10001 evaluations with EF=8.968e-01
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    86.88 seconds.
+

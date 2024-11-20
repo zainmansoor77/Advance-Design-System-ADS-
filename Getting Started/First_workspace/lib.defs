@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE First_workspace_lib First_workspace_lib
+ASSIGN First_workspace_lib libMode shared
