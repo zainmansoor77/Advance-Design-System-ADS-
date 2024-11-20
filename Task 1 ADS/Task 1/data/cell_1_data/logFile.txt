@@ -3,16 +3,54 @@ hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
     (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
 
 
-***** Simulation started at Wed Nov 20 17:30:38 2024
+***** Simulation started at Wed Nov 20 18:03:55 2024
       Running on host: "DESKTOP-FP4OP26"
       In Directory: "D:\Zain\Advance-Design-System-ADS-\Task 1 ADS\Task 1\data"
-      Process ID: 34108
+      Process ID: 14300
+
+
+CT Sweep1[1] <Task 1_lib:cell_1:schematic>   myR=(100e-03->1)
+
+
+TRAN Sweep1[1].Tran1[1/10] <Task 1_lib:cell_1:schematic>  myR=100e-03  time=(0 s->100 us)
 
 
 
-TRAN Tran1[1] <Task 1_lib:cell_1:schematic>   time=(0 s->100 us)
+TRAN Sweep1[1].Tran1[2/10] <Task 1_lib:cell_1:schematic>  myR=200e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[3/10] <Task 1_lib:cell_1:schematic>  myR=300e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[4/10] <Task 1_lib:cell_1:schematic>  myR=400e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[5/10] <Task 1_lib:cell_1:schematic>  myR=500e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[6/10] <Task 1_lib:cell_1:schematic>  myR=600e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[7/10] <Task 1_lib:cell_1:schematic>  myR=700e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[8/10] <Task 1_lib:cell_1:schematic>  myR=800e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[9/10] <Task 1_lib:cell_1:schematic>  myR=900e-03  time=(0 s->100 us)
+
+
+
+TRAN Sweep1[1].Tran1[10/10] <Task 1_lib:cell_1:schematic>  myR=1  time=(0 s->100 us)
 
 
 Resource usage:
-  Total stopwatch time     =     0.85 seconds.
+  Total stopwatch time     =     3.95 seconds.
 
