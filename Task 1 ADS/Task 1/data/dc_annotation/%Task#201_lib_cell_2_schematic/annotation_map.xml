@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<annotation_files Version="1.0" Time="Wed Nov 20 18:03:56 2024" Simulator="hpeesofsim">
+<annotation_files Version="1.0" Simulator="hpeesofsim" Time="Wed Nov 20 19:59:06 2024">
  <File name="annotation_1.xml">
   <Controller name="Tran1">
-   <P>myR: 1.0000000000000001e-01</P>
    <P>time: 0.0000000000000000e+00</P>
   </Controller>
  </File>
