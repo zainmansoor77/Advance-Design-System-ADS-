@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2024-11-20T16:40:02Z");
+	set(ddoId, "FileModifiedDateAndTime", "2024-11-20T16:56:41Z");
 	set(ddoId, "FileCreatedDateAndTime", "2024-11-20T16:08:24Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -38,7 +38,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Right", 5726);
 	set(goId0, "Bottom", 3629);
 	set(goId0, "Left", 1375);
-	set(goId0, "Top", 487);
+	set(goId0, "Top", 495);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
 	set(goId0, "Xrot", 0);
@@ -53,7 +53,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 500);
 	set(goId0, "RightMargin", 101);
-	set(goId0, "TopMargin", 263);
+	set(goId0, "TopMargin", 255);
 	set(goId0, "BottomMargin", 504);
 // Plot Title...
 	set(goId0, "Title", "");
@@ -245,8 +245,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "0.000018519299999999380690589995
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 1875);
-		set(markerID, "MkrReadoutRight", 3170);
-		set(markerID, "MkrReadoutBottom", -267);
+		set(markerID, "MkrReadoutRight", 3166);
+		set(markerID, "MkrReadoutBottom", -271);
 		set(markerID, "MkrReadoutTop", -800);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -312,8 +312,8 @@ markerID = get_new(goId0, "LineMarkerNew", "m1", "8.506667e-06", 0, "819", "", 1
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 1875);
-		set(markerID, "MkrReadoutRight", 3170);
-		set(markerID, "MkrReadoutBottom", 401);
+		set(markerID, "MkrReadoutRight", 3166);
+		set(markerID, "MkrReadoutBottom", 397);
 		set(markerID, "MkrReadoutTop", -132);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -543,7 +543,7 @@ goId0 = get_new(pageId, "Listing");
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 894074946);
+		 set(axisID, "Uid", 1263804693);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -600,7 +600,7 @@ traceID = get_new(goId0, "Trace", "Vin", "", "");
 ddWinId = get_new(ddsId, "Window", 45, 264, 1536, 864);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 999162416);
-	set(ddWinId, "PageViewRect_999162416", list(-230, 5787, 14136, -1338));
+	set(ddWinId, "PageViewRect_999162416", list(-232, 5787, 14138, -1338));
 	set(ddWinId, "Frame", list(45, 264, 1536, 864));
 	set(ddWinId, "Maximized", TRUE);
 	set(ddWinId, "ForegroundColor", 0);
